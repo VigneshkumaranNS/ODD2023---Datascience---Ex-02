@@ -28,9 +28,6 @@ Remove the outliers:
 Plot the datas using box plot.
 # PROGRAM:
 ```
-DEVELOPED BY: CHAITANYA
-REGISTER NUMBER: 212222230024
-
 import pandas as pd
 df=pd.read_csv("/content/bhp.csv")
 df.head()
@@ -105,51 +102,57 @@ sns.boxplot(x='weight',data=newdata_weight)
 # OUTPUT:
 # bhp.csv:
 # df.head():
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/ff0f3585-5697-4b0d-9de9-4e68a0bd3072)
+![image](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/66d877b0-07fd-46e4-948a-4932c7755cbd)
 # df.describe():
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/8c180ebf-0048-43d0-9842-fd94d085a472)
+![image]![img2](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/17710447-9ca1-447a-b83f-d8d4638728db)
 # df.info():
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/03d2c596-3bfc-4dba-b3f6-8e9daa848b2e)
+![img3](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/12f76ddc-1e03-4f47-b8cd-2d9e231358e8)
+
 # df.shape
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/df97c96d-8724-4a8c-b39f-88a19dded9f8)
+![img4](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/c58aa1e6-6e7d-4de4-8ba9-ae74413f68e4)
+
 # BOXPLOT BEFORE REMOVING OUTLIERS
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/42574795-e308-4df4-91f6-bc4abe450279)
+![img5](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/60f8a070-6917-41ea-89eb-70a2eba74eed)
+
 # NEWDATA USING IQR
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/aeca938f-ca96-4d7f-a415-1ea383d0dcee)
+![img6](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/3d0a9508-2b2f-47de-92e3-fd17a2926017)
+
 # OUTLIERS
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/c5e6ad48-1f27-442c-b08a-3889bf21d8ec)
+![img7](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/c300b3cc-3bc7-46c6-8162-90f91985a389)
+
 # newdata.shape
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/220441c8-6cbd-4ea9-bd26-51cb61b5a220)
+![img8](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/0852fce1-852e-4ff0-ac40-0a5a128b7e0f)
 # BOXPLOT AFTER REMOVING OUTLIERS USING IQR
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/31b688dd-6826-4957-a3da-574aa51e32dd)
+![img9](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/0c04cc9a-3222-4435-bff4-b3b8dfc05d9c)
 # Zscore of 3
 # NEWDATA USING Zscore
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/cb6f0b25-417b-4e42-83a1-3bcdf8b91923)
+![img10](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/54af52b9-95f0-49bc-9107-c4190455d146)
+
 # OUTLIERS
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/fb70982f-a5e6-4923-b4b3-812680dffa3c)
+![img11](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/7d654a17-de36-4d3e-86a1-ca95cf6ec36d)
 # newdata2.shape
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/8910987a-bbb9-4766-a97d-93ecfb340707)
+![img12](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/52af869b-69d9-48b1-b76b-3ecf44958e73)
 # BOXPLOT AFTER REMOVING OUTLIERS USING Zscore
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/392a6c67-45bd-4189-8388-c362a9175bbc)
+![img13](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/566eebbe-bedd-49ab-ba4c-b2c95fc7efbc)
 # height_weight.csv
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/64bfb706-69c0-4ef2-8d8d-a4bd4511f7ae)
+![img14](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/ab20e8c6-2347-4bd1-b1bb-11434233d1fe)
 # dataset.describe()
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/9f6b6333-21ea-4f38-90fa-2cb54fb35cb1)
+![img15](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/d824665a-b755-42d2-92c7-47c836161a98)
 # dataset.info()
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/f574b285-6a6f-487e-a1ec-e5f34032a881)
+![img16](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/23b5384e-6ac6-47a5-9038-0bedd64a6b9e)
 # BOXPLOT BEFORE REMOVING OUTLIERS
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/f8658740-e9dc-43b8-9bf3-7c4954edf07f)
+![img17](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/582fc63c-a46f-4450-9ce7-b7d3f07681a3)
 # HEIGHT OUTLIERS
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/b7b83df5-4603-4a4c-8598-ca465f319e7c)
+![img18](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/e2a85896-1ffd-43f9-9d93-fe4530012be0)
 # DATASET AFTER REMOVING HEIGHT OUTLIERS
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/2915f0ce-c637-48a3-9076-54f129d9f46d)
+![img19](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/cc2bbf53-bd97-4e40-b709-e91e38db3d12)
 # BOXPLOT AFTER REMOVING HEIGHT OUTLIERS
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/a18ff35c-11dc-4e34-bfe2-c5196d620e64)
+![img20](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/1cba984c-414b-47f7-bb88-bc9643b60802)
 # WEIGHT OUTLIERS
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/2264812c-3fd1-4d99-8cc8-de8c8ee137fd)
+![img21](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/7526a8c7-edf3-4b5d-a600-2da57bc3f652)
 # DATASET AFTER REMOVING WEIGHT OUTLIERS
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/de9092f0-ee7c-4ad5-9fe9-f7c52834222d)
+![img22](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/d1bd6b2d-9832-4381-b7fc-9160b3554976)
 # BOXPLOT AFTER REMOVING WEIGHT OUTLIERS
-![image](https://github.com/chaitanya18c/ODD2023---Datascience---Ex-02/assets/119392724/1be226c9-8b6f-498b-b2a4-aa7189e49fc8)
+![img23](https://github.com/VigneshkumaranNS/ODD2023---Datascience---Ex-02/assets/119484483/eb1beb07-e875-4853-9e60-4a7f3c43a723)
 # RESULT:
 The given datasets are read and outliers are detected and are removed using IQR and z-score methods.
